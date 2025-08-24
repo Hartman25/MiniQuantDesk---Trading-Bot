@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.venv*/
+.env
+env
+
+# Logs & data
+*.log
+*.tmp
+*.csv
+*.parquet
+logs/
+ml_sidecar/logs/
+ml_sidecar/data/
+logs/**
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Byte-compiled cache anywhere
+**/__pycache__/

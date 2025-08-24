@@ -1,0 +1,10 @@
+alpaca-py
+alpaca-trade-api
+pandas
+numpy
+python-dotenv
+requests
+pytz
+discord.py
+pyzmq
+pyarrow

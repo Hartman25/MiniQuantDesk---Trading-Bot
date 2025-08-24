@@ -1,0 +1,143 @@
+# ==============================
+# Mode
+# ==============================
+# Default mode: BACKTEST, PAPER, or LIVE
+# ==============================
+MODE=BACKTEST
+# ==============================
+# Windows-safe UTF-8 (prevents emoji crashes in console/logs)
+PYTHONUTF8=1
+
+# Backtest bar interval: 1Min or 1Day
+BACKTEST_INTERVAL=1Day
+BACKTEST_LOOKBACK_DAYS=120
+BACKTEST_PASSES=3
+
+# Market hours handling
+TRADE_EXTENDED_HOURS=false
+MARKET_SLEEP_BUFFER_SECONDS=300
+USER_TIMEZONE=Asia/Tokyo
+#USER_TIMEZONE=America/Honolulu
+#USER_TIMEZONE=America/Chicago
+
+
+
+# ==============================
+# Discord bot kill control (inbound)
+# ==============================
+DISCORD_BOT_TOKEN=MTQwNjYxMTQ5NzQ1NDUzNDcyNw.GMN0xP.7psvucLP3SjW8mJrZbiemlLO2TTxiPDX_Mu61A
+DISCORD_KILL_CHANNEL_ID=1376217106948821012
+DISCORD_KILL_PHRASE=!kill
+
+# Optional kill-checks (file or URL); leave blank if unused
+KILL_FILE=
+KILL_URL=
+
+# ==============================
+# Alpaca API Keys
+# ==============================
+
+# Paper Trading
+APCA_API_KEY_ID_PAPER=PK46T34JNWAQ7JYHJNWH
+APCA_API_SECRET_KEY_PAPER=Jd8QXsGcs6TbZRBg9MWI7u1HUyUng5MTjOmOSooj
+APCA_PAPER_BASE_URL=https://paper-api.alpaca.markets
+
+# Live Trading
+APCA_API_KEY_ID_LIVE=AKCF63DU1MDCLAZE979L
+APCA_API_SECRET_KEY_LIVE=6cX5DON4HuosSvvyjmxIulXwrDJiu4vFPbxILMFk
+APCA_LIVE_BASE_URL=https://api.alpaca.markets
+
+# ==============================
+# Discord Webhooks (outbound, per mode)
+# ==============================
+DISCORD_WEBHOOK_PAPER=https://discord.com/api/webhooks/1376217223118459032/VG08BHZdtyccAFBiY_bH5pYFJP_sPjNe-YccMAutaIicwroIxkSSQTQHmS1XiiqCWk0a
+DISCORD_WEBHOOK_LIVE=https://discord.com/api/webhooks/1398692083895631892/dISyPYgss3mM0usFKJjMdDmVE0iqsIt-9iERJ6u_cJJ0cBeo5hbRF3Jq7zwEJTO-PLBD
+DISCORD_WEBHOOK_HEARTBEAT_PAPER=https://discord.com/api/webhooks/1407667759323807764/Ff-FLRQFoLJHV_s4DgZb_8k4r9LdBXzk8esbAnSx3AYcZKGNKiwKxFCjPLKzjqqQh3D5
+DISCORD_WEBHOOK_HEARTBEAT_LIVE=https://discord.com/api/webhooks/1407667524023353444/P2bnKdHkr5IQWUBazh4XRfCYJbymywAyLGpClxzaAR9TCaNL8KHzPHvnZxkYCsactAKV
+DISCORD_WEBHOOK_BACKTEST=https://discord.com/api/webhooks/1407997238675767296/nmrtyUaBCYtz23P9NCENIpOo8v82ilfyTPNFuWO7BXn07yPAFzlViyJ0gr9y8mWNyXA7
+DISCORD_WEBHOOK_SCANNER=https://discord.com/api/webhooks/1408978932941848646/tXe2WCsqMst9edjJWR_VhDvPBOxxjEd-7BNchLaylWr3DYAFEwwQpk-gnpgFAYcanqwH
+# ==============================
+# Default Trading Parameters
+# ==============================
+# Base symbols: user can add/remove via Discord commands (!add, !remove, !enable, !disable)
+SYMBOLS=F,PFE,T,BAC,CCL,NIO,PLUG,SOFI,AAL,AMD
+
+TAKE_PROFIT_PCT=0.05
+STOP_LOSS_PCT=0.02
+RISK_PER_TRADE=0.01
+
+DAY_STOP=300
+WEEK_STOP=1.2%
+
+# Strategy indicators
+SMA_FAST=5
+SMA_SLOW=20
+RSI_PERIOD=14
+RSI_MIN_BUY=45
+RSI_MAX_SELL=70
+
+BACKTEST_TARGET_TRADES_PER_SYMBOL=100
+BACKTEST_MAX_PASSES=50
+
+# ==============================
+# Session / Risk Guardrails
+# ==============================
+# Auto-halt new entries after these drawdowns (paper & live)
+DAILY_LOSS_LIMIT_PCT=0.02
+WEEKLY_LOSS_LIMIT_PCT=0.05
+# Also flatten any open positions immediately upon breach?
+FLATTEN_ON_RISK_BREACH=true
+
+# ==============================
+# Single-Position Toggles
+# ==============================
+# Enforce one open position at a time per mode
+BACKTEST_GLOBAL_SINGLE_POSITION=false
+PAPER_GLOBAL_SINGLE_POSITION=true
+LIVE_GLOBAL_SINGLE_POSITION=true
+
+# ==============================
+# Paper Dry-Run (off-hours simulator)
+# ==============================
+# true  = simulate fills/exits without sending real paper orders
+# false = place real paper orders with Alpaca
+PAPER_DRY_RUN=false
+
+# ==============================
+# Market-Closed Notification Cadence
+# ==============================
+# Send a heartbeat to Discord while market is closed:
+#   - every N minutes (e.g., 120) until 60 minutes before open
+#   - then at 60, 30, and 15 minutes before open
+MARKET_CLOSED_NOTIFY=true
+MARKET_CLOSED_INTERVAL_MIN=120
+MARKET_CLOSED_FINAL_MINUTES=60,30,15
+
+# Optional: liveness heartbeats in logs/Discord (minutes)
+HEARTBEAT_MINUTES=5
+HEARTBEAT_OPEN_MIN=60
+HEARTBEAT_CLOSED_MIN=240
+
+# ==============================
+# ===== ML Sidecar Settings =====
+# ==============================
+# ZeroMQ bind address (logger binds here, bot connects)
+BUS_BIND=tcp://127.0.0.1:5557
+LOG_DIR=./ml_sidecar/logs
+
+# Where Parquet logs will be stored (relative to the Bot folder)
+DATA_DIR=./ml_sidecar/data/ml
+
+# Version tags for ML
+FEATURE_VERSION=f1.0
+STRATEGY_VERSION=s1.0
+MODEL_VERSION=none
+
+# Parquet tuning
+PARQUET_ROW_GROUP=5000
+
+# Also write CSV alongside Parquet? (false recommended)
+CSV_FALLBACK=false
+
+# Sidecar internal log path
+SIDECAR_LOG=ml_sidecar/logs/sidecar.log
