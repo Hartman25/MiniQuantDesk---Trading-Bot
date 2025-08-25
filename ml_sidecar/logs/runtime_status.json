@@ -1,0 +1,10 @@
+{
+  "mode": "PAPER",
+  "hb": {
+    "trader_secs": null,
+    "scheduler_secs": null,
+    "sidecar_secs": 3788
+  },
+  "today_pnl": 0.0,
+  "open_positions": 0
+}

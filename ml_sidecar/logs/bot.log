@@ -1,0 +1,657 @@
+2025-08-24 19:24:19,418 | INFO | [env] Loaded from env
+2025-08-24 19:24:19,448 | INFO | Running BACKTEST: interval=1Min, lookback_days=3, passes=1, symbols=['AAPL', 'MSFT']
+2025-08-24 19:24:19,449 | INFO | [Backtest] Starting 1 passes for 2 symbols...
+2025-08-24 19:24:19,449 | INFO | [Backtest] Pass 1/50
+2025-08-24 19:24:22,782 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 19:24:22,782 | INFO | [Backtest] Pass 2/50
+2025-08-24 19:24:25,893 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 19:24:25,894 | INFO | BACKTEST: all symbols reached >= 100 trades; stopping at pass 2.
+2025-08-24 19:24:25,924 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 19:24:25,927 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 19:24:25,929 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 19:24:25,929 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Min",
+  "symbols": [
+    "AAPL",
+    "MSFT"
+  ],
+  "passes": 1,
+  "total_trades": 422,
+  "total_wins": 138,
+  "win_rate_total": 32.7,
+  "net_pnl_total": -5888.35
+}
+2025-08-24 19:24:25,932 | INFO | MODE=BACKTEST
+2025-08-24 19:24:25,932 | INFO | [DiscordBot] Not configured; skipping inbound listener.
+2025-08-24 19:24:25,932 | WARNING | [StartupBanner] failed: 'BACKTEST'
+2025-08-24 19:24:25,933 | INFO | Running BACKTEST: interval=1Day, lookback_days=120, passes=3, symbols=['F', 'PFE', 'T', 'BAC', 'CCL', 'NIO', 'PLUG', 'SOFI', 'AAL', 'AMD']
+2025-08-24 19:24:25,933 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:24:25,933 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:24:25,933 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:24:25,933 | INFO | [Backtest] Pass 1/50
+2025-08-24 19:24:34,175 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 19:24:34,176 | INFO | [Backtest] Pass 2/50
+2025-08-24 19:24:41,566 | WARNING | [Backtest] kill received (signal). Aborting.
+2025-08-24 19:24:41,570 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 19:24:41,570 | INFO | [Backtest] Pass 3/50
+2025-08-24 19:24:41,570 | WARNING | [Backtest] kill received (signal) on sweep 3. Aborting backtest.
+2025-08-24 19:24:41,575 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 19:24:41,577 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 19:24:41,580 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 19:24:41,581 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Day",
+  "symbols": [
+    "AAL",
+    "AMD",
+    "BAC",
+    "CCL",
+    "F",
+    "NIO",
+    "PFE",
+    "PLUG",
+    "SOFI",
+    "T"
+  ],
+  "passes": 3,
+  "total_trades": 29,
+  "total_wins": 17,
+  "win_rate_total": 58.62,
+  "net_pnl_total": 30087.36
+}
+2025-08-24 19:24:41,581 | INFO | Saved: backtest_equity_curve.csv, backtest_report.csv, backtest_report_summary.csv
+2025-08-24 19:26:18,358 | INFO | [env] Loaded from env
+2025-08-24 19:26:18,389 | INFO | Running BACKTEST: interval=1Min, lookback_days=3, passes=1, symbols=['AAPL', 'MSFT']
+2025-08-24 19:26:18,390 | INFO | [Backtest] Starting 1 passes for 2 symbols...
+2025-08-24 19:26:18,390 | INFO | [Backtest] Pass 1/50
+2025-08-24 19:26:21,721 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 19:26:21,721 | INFO | [Backtest] Pass 2/50
+2025-08-24 19:26:24,823 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 19:26:24,824 | INFO | BACKTEST: all symbols reached >= 100 trades; stopping at pass 2.
+2025-08-24 19:26:24,855 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 19:26:24,858 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 19:26:24,862 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 19:26:24,862 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Min",
+  "symbols": [
+    "AAPL",
+    "MSFT"
+  ],
+  "passes": 1,
+  "total_trades": 422,
+  "total_wins": 138,
+  "win_rate_total": 32.7,
+  "net_pnl_total": -5888.35
+}
+2025-08-24 19:26:24,865 | INFO | MODE=BACKTEST
+2025-08-24 19:26:24,865 | INFO | [DiscordBot] Not configured; skipping inbound listener.
+2025-08-24 19:26:24,865 | WARNING | [StartupBanner] failed: 'BACKTEST'
+2025-08-24 19:26:24,865 | INFO | Running BACKTEST: interval=1Day, lookback_days=120, passes=3, symbols=['F', 'PFE', 'T', 'BAC', 'CCL', 'NIO', 'PLUG', 'SOFI', 'AAL', 'AMD']
+2025-08-24 19:26:24,865 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:26:24,865 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:26:24,865 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:26:24,865 | INFO | [Backtest] Pass 1/50
+2025-08-24 19:26:33,076 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 19:26:33,077 | INFO | [Backtest] Pass 2/50
+2025-08-24 19:26:41,313 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 19:26:41,313 | INFO | [Backtest] Pass 3/50
+2025-08-24 19:26:42,941 | WARNING | [Backtest] kill received (signal). Aborting.
+2025-08-24 19:26:42,948 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_3.csv
+2025-08-24 19:26:42,948 | INFO | [Backtest] Pass 4/50
+2025-08-24 19:26:42,948 | WARNING | [Backtest] kill received (signal) on sweep 4. Aborting backtest.
+2025-08-24 19:26:42,954 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 19:26:42,956 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 19:26:42,960 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 19:26:42,960 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Day",
+  "symbols": [
+    "AAL",
+    "AMD",
+    "BAC",
+    "CCL",
+    "F",
+    "NIO",
+    "PFE",
+    "PLUG",
+    "SOFI",
+    "T"
+  ],
+  "passes": 3,
+  "total_trades": 34,
+  "total_wins": 18,
+  "win_rate_total": 52.94,
+  "net_pnl_total": 26426.37
+}
+2025-08-24 19:26:42,960 | INFO | Saved: backtest_equity_curve.csv, backtest_report.csv, backtest_report_summary.csv
+2025-08-24 19:27:16,701 | INFO | [env] Loaded from env
+2025-08-24 19:27:16,729 | INFO | Running BACKTEST: interval=1Min, lookback_days=3, passes=1, symbols=['AAPL', 'MSFT']
+2025-08-24 19:27:16,730 | INFO | [Backtest] Starting 1 passes for 2 symbols...
+2025-08-24 19:27:16,730 | INFO | [Backtest] Pass 1/50
+2025-08-24 19:27:19,946 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 19:27:19,946 | INFO | [Backtest] Pass 2/50
+2025-08-24 19:27:22,991 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 19:27:22,991 | INFO | BACKTEST: all symbols reached >= 100 trades; stopping at pass 2.
+2025-08-24 19:27:23,019 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 19:27:23,022 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 19:27:23,025 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 19:27:23,026 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Min",
+  "symbols": [
+    "AAPL",
+    "MSFT"
+  ],
+  "passes": 1,
+  "total_trades": 422,
+  "total_wins": 138,
+  "win_rate_total": 32.7,
+  "net_pnl_total": -5888.35
+}
+2025-08-24 19:27:23,028 | INFO | MODE=BACKTEST
+2025-08-24 19:27:23,028 | INFO | [DiscordBot] Not configured; skipping inbound listener.
+2025-08-24 19:27:23,028 | WARNING | [StartupBanner] failed: 'BACKTEST'
+2025-08-24 19:27:23,028 | INFO | Running BACKTEST: interval=1Day, lookback_days=120, passes=3, symbols=['F', 'PFE', 'T', 'BAC', 'CCL', 'NIO', 'PLUG', 'SOFI', 'AAL', 'AMD']
+2025-08-24 19:27:23,029 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:27:23,029 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:27:23,029 | INFO | [Backtest] Starting 3 passes for 10 symbols...
+2025-08-24 19:27:23,029 | INFO | [Backtest] Pass 1/50
+2025-08-24 19:27:31,201 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 19:27:31,202 | INFO | [Backtest] Pass 2/50
+2025-08-24 19:27:39,361 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 19:27:39,362 | INFO | [Backtest] Pass 3/50
+2025-08-24 19:27:47,468 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_3.csv
+2025-08-24 19:27:47,468 | INFO | [Backtest] Pass 4/50
+2025-08-24 19:27:55,611 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_4.csv
+2025-08-24 19:27:55,611 | INFO | [Backtest] Pass 5/50
+2025-08-24 19:28:03,769 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_5.csv
+2025-08-24 19:28:03,769 | INFO | [Backtest] Pass 6/50
+2025-08-24 19:28:11,963 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_6.csv
+2025-08-24 19:28:11,963 | INFO | [Backtest] Pass 7/50
+2025-08-24 19:28:20,337 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_7.csv
+2025-08-24 19:28:20,338 | INFO | [Backtest] Pass 8/50
+2025-08-24 19:28:28,482 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_8.csv
+2025-08-24 19:28:28,483 | INFO | [Backtest] Pass 9/50
+2025-08-24 19:28:36,621 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_9.csv
+2025-08-24 19:28:36,621 | INFO | [Backtest] Pass 10/50
+2025-08-24 19:28:44,753 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_10.csv
+2025-08-24 19:28:44,753 | INFO | [Backtest] Pass 11/50
+2025-08-24 19:28:52,870 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_11.csv
+2025-08-24 19:28:52,870 | INFO | [Backtest] Pass 12/50
+2025-08-24 19:29:01,005 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_12.csv
+2025-08-24 19:29:01,006 | INFO | [Backtest] Pass 13/50
+2025-08-24 19:29:09,125 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_13.csv
+2025-08-24 19:29:09,126 | INFO | [Backtest] Pass 14/50
+2025-08-24 19:29:22,508 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_14.csv
+2025-08-24 19:29:22,509 | INFO | [Backtest] Pass 15/50
+2025-08-24 19:29:30,767 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_15.csv
+2025-08-24 19:29:30,768 | INFO | [Backtest] Pass 16/50
+2025-08-24 19:29:39,001 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_16.csv
+2025-08-24 19:29:39,001 | INFO | [Backtest] Pass 17/50
+2025-08-24 19:29:47,277 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_17.csv
+2025-08-24 19:29:47,277 | INFO | [Backtest] Pass 18/50
+2025-08-24 19:29:55,593 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_18.csv
+2025-08-24 19:29:55,594 | INFO | [Backtest] Pass 19/50
+2025-08-24 19:30:04,017 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_19.csv
+2025-08-24 19:30:04,018 | INFO | [Backtest] Pass 20/50
+2025-08-24 19:30:12,640 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_20.csv
+2025-08-24 19:30:12,640 | INFO | [Backtest] Pass 21/50
+2025-08-24 19:30:21,391 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_21.csv
+2025-08-24 19:30:21,391 | INFO | [Backtest] Pass 22/50
+2025-08-24 19:30:29,938 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_22.csv
+2025-08-24 19:30:29,938 | INFO | [Backtest] Pass 23/50
+2025-08-24 19:30:38,402 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_23.csv
+2025-08-24 19:30:38,403 | INFO | [Backtest] Pass 24/50
+2025-08-24 19:30:46,883 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_24.csv
+2025-08-24 19:30:46,884 | INFO | [Backtest] Pass 25/50
+2025-08-24 19:30:55,434 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_25.csv
+2025-08-24 19:30:55,435 | INFO | [Backtest] Pass 26/50
+2025-08-24 19:31:04,098 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_26.csv
+2025-08-24 19:31:04,098 | INFO | [Backtest] Pass 27/50
+2025-08-24 19:31:13,433 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_27.csv
+2025-08-24 19:31:13,433 | INFO | [Backtest] Pass 28/50
+2025-08-24 19:31:22,636 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_28.csv
+2025-08-24 19:31:22,636 | INFO | [Backtest] Pass 29/50
+2025-08-24 19:31:31,129 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_29.csv
+2025-08-24 19:31:31,129 | INFO | [Backtest] Pass 30/50
+2025-08-24 19:31:39,554 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_30.csv
+2025-08-24 19:31:39,555 | INFO | [Backtest] Pass 31/50
+2025-08-24 19:31:47,942 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_31.csv
+2025-08-24 19:31:47,943 | INFO | [Backtest] Pass 32/50
+2025-08-24 19:31:56,140 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_32.csv
+2025-08-24 19:31:56,140 | INFO | [Backtest] Pass 33/50
+2025-08-24 19:32:04,358 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_33.csv
+2025-08-24 19:32:04,358 | INFO | [Backtest] Pass 34/50
+2025-08-24 19:32:12,527 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_34.csv
+2025-08-24 19:32:12,527 | INFO | [Backtest] Pass 35/50
+2025-08-24 19:32:20,956 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_35.csv
+2025-08-24 19:32:20,956 | INFO | [Backtest] Pass 36/50
+2025-08-24 19:32:29,166 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_36.csv
+2025-08-24 19:32:29,166 | INFO | [Backtest] Pass 37/50
+2025-08-24 19:32:37,526 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_37.csv
+2025-08-24 19:32:37,526 | INFO | [Backtest] Pass 38/50
+2025-08-24 19:32:45,889 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_38.csv
+2025-08-24 19:32:45,890 | INFO | [Backtest] Pass 39/50
+2025-08-24 19:32:54,270 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_39.csv
+2025-08-24 19:32:54,270 | INFO | [Backtest] Pass 40/50
+2025-08-24 19:33:02,645 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_40.csv
+2025-08-24 19:33:02,645 | INFO | [Backtest] Pass 41/50
+2025-08-24 19:33:11,153 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_41.csv
+2025-08-24 19:33:11,154 | INFO | [Backtest] Pass 42/50
+2025-08-24 19:33:19,625 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_42.csv
+2025-08-24 19:33:19,626 | INFO | [Backtest] Pass 43/50
+2025-08-24 19:33:28,356 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_43.csv
+2025-08-24 19:33:28,357 | INFO | [Backtest] Pass 44/50
+2025-08-24 19:33:36,851 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_44.csv
+2025-08-24 19:33:36,851 | INFO | [Backtest] Pass 45/50
+2025-08-24 19:33:45,353 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_45.csv
+2025-08-24 19:33:45,353 | INFO | [Backtest] Pass 46/50
+2025-08-24 19:33:53,926 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_46.csv
+2025-08-24 19:33:53,926 | INFO | [Backtest] Pass 47/50
+2025-08-24 19:34:02,442 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_47.csv
+2025-08-24 19:34:02,442 | INFO | [Backtest] Pass 48/50
+2025-08-24 19:34:10,947 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_48.csv
+2025-08-24 19:34:10,948 | INFO | [Backtest] Pass 49/50
+2025-08-24 19:34:19,551 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_49.csv
+2025-08-24 19:34:19,551 | INFO | [Backtest] Pass 50/50
+2025-08-24 19:34:28,273 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_50.csv
+2025-08-24 19:34:28,273 | INFO | BACKTEST: reached max passes (50); stopping.
+2025-08-24 19:34:28,372 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 19:34:28,377 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 19:34:28,383 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 19:34:28,383 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Day",
+  "symbols": [
+    "AAL",
+    "AMD",
+    "BAC",
+    "CCL",
+    "F",
+    "NIO",
+    "PFE",
+    "PLUG",
+    "SOFI",
+    "T"
+  ],
+  "passes": 3,
+  "total_trades": 800,
+  "total_wins": 450,
+  "win_rate_total": 56.25,
+  "net_pnl_total": 785856.22
+}
+2025-08-24 19:34:28,387 | INFO | Saved: backtest_equity_curve.csv, backtest_report.csv, backtest_report_summary.csv
+2025-08-24 20:17:25,413 | INFO | Running BACKTEST: interval=1Day, lookback_days=120, passes=3, symbols=['F', 'PFE', 'T', 'BAC', 'CCL', 'NIO', 'PLUG', 'SOFI', 'AAL', 'AMD']
+2025-08-24 20:17:26,367 | INFO | [Backtest] Pass 1/50
+2025-08-24 20:17:26,372 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:17:34,874 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 20:17:34,874 | INFO | [Backtest] Pass 2/50
+2025-08-24 20:17:34,877 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:17:42,999 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 20:17:42,999 | INFO | [Backtest] Pass 3/50
+2025-08-24 20:17:43,003 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:17:51,145 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_3.csv
+2025-08-24 20:17:51,145 | INFO | [Backtest] Pass 4/50
+2025-08-24 20:17:51,148 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:17:59,398 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_4.csv
+2025-08-24 20:17:59,399 | INFO | [Backtest] Pass 5/50
+2025-08-24 20:17:59,402 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:07,612 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_5.csv
+2025-08-24 20:18:07,612 | INFO | [Backtest] Pass 6/50
+2025-08-24 20:18:07,616 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:15,781 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_6.csv
+2025-08-24 20:18:15,782 | INFO | [Backtest] Pass 7/50
+2025-08-24 20:18:15,784 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:23,957 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_7.csv
+2025-08-24 20:18:23,958 | INFO | [Backtest] Pass 8/50
+2025-08-24 20:18:23,962 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:32,619 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_8.csv
+2025-08-24 20:18:32,619 | INFO | [Backtest] Pass 9/50
+2025-08-24 20:18:32,623 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:41,265 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_9.csv
+2025-08-24 20:18:41,265 | INFO | [Backtest] Pass 10/50
+2025-08-24 20:18:41,269 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:49,687 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_10.csv
+2025-08-24 20:18:49,688 | INFO | [Backtest] Pass 11/50
+2025-08-24 20:18:49,691 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:18:57,941 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_11.csv
+2025-08-24 20:18:57,941 | INFO | [Backtest] Pass 12/50
+2025-08-24 20:18:57,944 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:06,157 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_12.csv
+2025-08-24 20:19:06,157 | INFO | [Backtest] Pass 13/50
+2025-08-24 20:19:06,160 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:14,371 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_13.csv
+2025-08-24 20:19:14,372 | INFO | [Backtest] Pass 14/50
+2025-08-24 20:19:14,374 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:22,556 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_14.csv
+2025-08-24 20:19:22,556 | INFO | [Backtest] Pass 15/50
+2025-08-24 20:19:22,559 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:30,970 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_15.csv
+2025-08-24 20:19:30,971 | INFO | [Backtest] Pass 16/50
+2025-08-24 20:19:30,973 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:39,131 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_16.csv
+2025-08-24 20:19:39,132 | INFO | [Backtest] Pass 17/50
+2025-08-24 20:19:39,134 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:47,613 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_17.csv
+2025-08-24 20:19:47,613 | INFO | [Backtest] Pass 18/50
+2025-08-24 20:19:47,620 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:19:56,147 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_18.csv
+2025-08-24 20:19:56,147 | INFO | [Backtest] Pass 19/50
+2025-08-24 20:19:56,150 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:04,406 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_19.csv
+2025-08-24 20:20:04,407 | INFO | [Backtest] Pass 20/50
+2025-08-24 20:20:04,410 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:12,549 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_20.csv
+2025-08-24 20:20:12,549 | INFO | [Backtest] Pass 21/50
+2025-08-24 20:20:12,552 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:20,787 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_21.csv
+2025-08-24 20:20:20,787 | INFO | [Backtest] Pass 22/50
+2025-08-24 20:20:20,790 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:29,202 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_22.csv
+2025-08-24 20:20:29,202 | INFO | [Backtest] Pass 23/50
+2025-08-24 20:20:29,205 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:37,379 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_23.csv
+2025-08-24 20:20:37,379 | INFO | [Backtest] Pass 24/50
+2025-08-24 20:20:37,382 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:45,628 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_24.csv
+2025-08-24 20:20:45,629 | INFO | [Backtest] Pass 25/50
+2025-08-24 20:20:45,632 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:20:53,898 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_25.csv
+2025-08-24 20:20:53,898 | INFO | [Backtest] Pass 26/50
+2025-08-24 20:20:53,901 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:02,107 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_26.csv
+2025-08-24 20:21:02,107 | INFO | [Backtest] Pass 27/50
+2025-08-24 20:21:02,110 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:10,296 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_27.csv
+2025-08-24 20:21:10,296 | INFO | [Backtest] Pass 28/50
+2025-08-24 20:21:10,299 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:18,520 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_28.csv
+2025-08-24 20:21:18,520 | INFO | [Backtest] Pass 29/50
+2025-08-24 20:21:18,524 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:26,775 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_29.csv
+2025-08-24 20:21:26,775 | INFO | [Backtest] Pass 30/50
+2025-08-24 20:21:26,778 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:35,175 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_30.csv
+2025-08-24 20:21:35,176 | INFO | [Backtest] Pass 31/50
+2025-08-24 20:21:35,178 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:43,383 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_31.csv
+2025-08-24 20:21:43,383 | INFO | [Backtest] Pass 32/50
+2025-08-24 20:21:43,386 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:51,573 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_32.csv
+2025-08-24 20:21:51,573 | INFO | [Backtest] Pass 33/50
+2025-08-24 20:21:51,576 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:21:59,808 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_33.csv
+2025-08-24 20:21:59,808 | INFO | [Backtest] Pass 34/50
+2025-08-24 20:21:59,811 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:08,079 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_34.csv
+2025-08-24 20:22:08,079 | INFO | [Backtest] Pass 35/50
+2025-08-24 20:22:08,083 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:16,625 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_35.csv
+2025-08-24 20:22:16,625 | INFO | [Backtest] Pass 36/50
+2025-08-24 20:22:16,628 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:25,061 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_36.csv
+2025-08-24 20:22:25,062 | INFO | [Backtest] Pass 37/50
+2025-08-24 20:22:25,066 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:33,769 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_37.csv
+2025-08-24 20:22:33,769 | INFO | [Backtest] Pass 38/50
+2025-08-24 20:22:33,774 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:42,274 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_38.csv
+2025-08-24 20:22:42,275 | INFO | [Backtest] Pass 39/50
+2025-08-24 20:22:42,278 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:50,798 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_39.csv
+2025-08-24 20:22:50,799 | INFO | [Backtest] Pass 40/50
+2025-08-24 20:22:50,802 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:22:59,037 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_40.csv
+2025-08-24 20:22:59,037 | INFO | [Backtest] Pass 41/50
+2025-08-24 20:22:59,040 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:07,271 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_41.csv
+2025-08-24 20:23:07,272 | INFO | [Backtest] Pass 42/50
+2025-08-24 20:23:07,275 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:15,503 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_42.csv
+2025-08-24 20:23:15,504 | INFO | [Backtest] Pass 43/50
+2025-08-24 20:23:15,507 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:23,774 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_43.csv
+2025-08-24 20:23:23,774 | INFO | [Backtest] Pass 44/50
+2025-08-24 20:23:23,777 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:32,401 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_44.csv
+2025-08-24 20:23:32,401 | INFO | [Backtest] Pass 45/50
+2025-08-24 20:23:32,404 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:40,728 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_45.csv
+2025-08-24 20:23:40,729 | INFO | [Backtest] Pass 46/50
+2025-08-24 20:23:40,732 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:48,971 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_46.csv
+2025-08-24 20:23:48,972 | INFO | [Backtest] Pass 47/50
+2025-08-24 20:23:48,975 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:23:57,248 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_47.csv
+2025-08-24 20:23:57,248 | INFO | [Backtest] Pass 48/50
+2025-08-24 20:23:57,251 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:24:05,494 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_48.csv
+2025-08-24 20:24:05,494 | INFO | [Backtest] Pass 49/50
+2025-08-24 20:24:05,498 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:24:13,969 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_49.csv
+2025-08-24 20:24:13,969 | INFO | [Backtest] Pass 50/50
+2025-08-24 20:24:13,973 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:24:22,379 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_50.csv
+2025-08-24 20:24:22,379 | INFO | BACKTEST: reached max passes (50); stopping.
+2025-08-24 20:24:22,472 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 20:24:22,477 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 20:24:22,479 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 20:24:23,816 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Day",
+  "symbols": [
+    "AAL",
+    "AMD",
+    "BAC",
+    "CCL",
+    "F",
+    "NIO",
+    "PFE",
+    "PLUG",
+    "SOFI",
+    "T"
+  ],
+  "passes": 51,
+  "total_trades": 800,
+  "total_wins": 450,
+  "win_rate_total": 56.25,
+  "net_pnl_total": 785856.22
+}
+2025-08-24 20:24:23,820 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:24:24,862 | INFO | [DONE] Backtest finished: {'mode': 'BACKTEST', 'date': '2025-08-24', 'interval': '1Day', 'symbols': ['AAL', 'AMD', 'BAC', 'CCL', 'F', 'NIO', 'PFE', 'PLUG', 'SOFI', 'T'], 'passes': 51, 'total_trades': 800, 'total_wins': 450, 'win_rate_total': 56.25, 'net_pnl_total': 785856.22}
+2025-08-24 20:35:06,749 | INFO | Running BACKTEST: interval=1Day, lookback_days=120, passes=3, symbols=['F', 'PFE', 'T', 'BAC', 'CCL', 'NIO', 'PLUG', 'SOFI', 'AAL', 'AMD']
+2025-08-24 20:35:07,828 | INFO | [Backtest] Pass 1/50
+2025-08-24 20:35:07,835 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:35:16,317 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_1.csv
+2025-08-24 20:35:16,317 | INFO | [Backtest] Pass 2/50
+2025-08-24 20:35:16,321 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:35:24,580 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_2.csv
+2025-08-24 20:35:24,580 | INFO | [Backtest] Pass 3/50
+2025-08-24 20:35:24,583 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:35:32,784 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_3.csv
+2025-08-24 20:35:32,784 | INFO | [Backtest] Pass 4/50
+2025-08-24 20:35:32,789 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:35:41,040 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_4.csv
+2025-08-24 20:35:41,041 | INFO | [Backtest] Pass 5/50
+2025-08-24 20:35:41,044 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:35:49,202 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_5.csv
+2025-08-24 20:35:49,202 | INFO | [Backtest] Pass 6/50
+2025-08-24 20:35:49,205 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:35:57,390 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_6.csv
+2025-08-24 20:35:57,391 | INFO | [Backtest] Pass 7/50
+2025-08-24 20:35:57,394 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:05,526 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_7.csv
+2025-08-24 20:36:05,526 | INFO | [Backtest] Pass 8/50
+2025-08-24 20:36:05,530 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:13,878 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_8.csv
+2025-08-24 20:36:13,878 | INFO | [Backtest] Pass 9/50
+2025-08-24 20:36:13,881 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:22,093 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_9.csv
+2025-08-24 20:36:22,093 | INFO | [Backtest] Pass 10/50
+2025-08-24 20:36:22,097 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:30,321 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_10.csv
+2025-08-24 20:36:30,321 | INFO | [Backtest] Pass 11/50
+2025-08-24 20:36:30,324 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:38,478 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_11.csv
+2025-08-24 20:36:38,478 | INFO | [Backtest] Pass 12/50
+2025-08-24 20:36:38,481 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:46,632 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_12.csv
+2025-08-24 20:36:46,632 | INFO | [Backtest] Pass 13/50
+2025-08-24 20:36:46,635 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:36:54,803 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_13.csv
+2025-08-24 20:36:54,803 | INFO | [Backtest] Pass 14/50
+2025-08-24 20:36:54,807 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:02,938 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_14.csv
+2025-08-24 20:37:02,938 | INFO | [Backtest] Pass 15/50
+2025-08-24 20:37:02,942 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:11,293 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_15.csv
+2025-08-24 20:37:11,293 | INFO | [Backtest] Pass 16/50
+2025-08-24 20:37:11,296 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:19,464 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_16.csv
+2025-08-24 20:37:19,464 | INFO | [Backtest] Pass 17/50
+2025-08-24 20:37:19,468 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:27,653 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_17.csv
+2025-08-24 20:37:27,653 | INFO | [Backtest] Pass 18/50
+2025-08-24 20:37:27,657 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:35,845 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_18.csv
+2025-08-24 20:37:35,845 | INFO | [Backtest] Pass 19/50
+2025-08-24 20:37:35,849 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:44,060 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_19.csv
+2025-08-24 20:37:44,061 | INFO | [Backtest] Pass 20/50
+2025-08-24 20:37:44,064 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:37:52,267 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_20.csv
+2025-08-24 20:37:52,267 | INFO | [Backtest] Pass 21/50
+2025-08-24 20:37:52,271 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:00,491 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_21.csv
+2025-08-24 20:38:00,491 | INFO | [Backtest] Pass 22/50
+2025-08-24 20:38:00,494 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:08,877 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_22.csv
+2025-08-24 20:38:08,877 | INFO | [Backtest] Pass 23/50
+2025-08-24 20:38:08,881 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:17,034 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_23.csv
+2025-08-24 20:38:17,035 | INFO | [Backtest] Pass 24/50
+2025-08-24 20:38:17,038 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:25,215 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_24.csv
+2025-08-24 20:38:25,215 | INFO | [Backtest] Pass 25/50
+2025-08-24 20:38:25,219 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:35,122 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_25.csv
+2025-08-24 20:38:35,123 | INFO | [Backtest] Pass 26/50
+2025-08-24 20:38:35,126 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:43,369 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_26.csv
+2025-08-24 20:38:43,369 | INFO | [Backtest] Pass 27/50
+2025-08-24 20:38:43,372 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:51,572 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_27.csv
+2025-08-24 20:38:51,572 | INFO | [Backtest] Pass 28/50
+2025-08-24 20:38:51,575 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:38:59,778 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_28.csv
+2025-08-24 20:38:59,778 | INFO | [Backtest] Pass 29/50
+2025-08-24 20:38:59,782 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:07,913 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_29.csv
+2025-08-24 20:39:07,913 | INFO | [Backtest] Pass 30/50
+2025-08-24 20:39:07,917 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:16,328 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_30.csv
+2025-08-24 20:39:16,328 | INFO | [Backtest] Pass 31/50
+2025-08-24 20:39:16,331 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:24,483 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_31.csv
+2025-08-24 20:39:24,484 | INFO | [Backtest] Pass 32/50
+2025-08-24 20:39:24,487 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:32,622 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_32.csv
+2025-08-24 20:39:32,622 | INFO | [Backtest] Pass 33/50
+2025-08-24 20:39:32,626 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:40,787 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_33.csv
+2025-08-24 20:39:40,787 | INFO | [Backtest] Pass 34/50
+2025-08-24 20:39:40,792 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:49,068 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_34.csv
+2025-08-24 20:39:49,068 | INFO | [Backtest] Pass 35/50
+2025-08-24 20:39:49,072 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:39:57,250 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_35.csv
+2025-08-24 20:39:57,251 | INFO | [Backtest] Pass 36/50
+2025-08-24 20:39:57,254 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:05,428 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_36.csv
+2025-08-24 20:40:05,429 | INFO | [Backtest] Pass 37/50
+2025-08-24 20:40:05,432 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:13,809 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_37.csv
+2025-08-24 20:40:13,809 | INFO | [Backtest] Pass 38/50
+2025-08-24 20:40:13,812 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:22,009 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_38.csv
+2025-08-24 20:40:22,010 | INFO | [Backtest] Pass 39/50
+2025-08-24 20:40:22,013 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:30,201 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_39.csv
+2025-08-24 20:40:30,201 | INFO | [Backtest] Pass 40/50
+2025-08-24 20:40:30,204 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:38,387 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_40.csv
+2025-08-24 20:40:38,387 | INFO | [Backtest] Pass 41/50
+2025-08-24 20:40:38,391 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:46,557 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_41.csv
+2025-08-24 20:40:46,557 | INFO | [Backtest] Pass 42/50
+2025-08-24 20:40:46,561 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:40:54,751 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_42.csv
+2025-08-24 20:40:54,751 | INFO | [Backtest] Pass 43/50
+2025-08-24 20:40:54,755 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:02,968 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_43.csv
+2025-08-24 20:41:02,968 | INFO | [Backtest] Pass 44/50
+2025-08-24 20:41:02,972 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:11,357 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_44.csv
+2025-08-24 20:41:11,358 | INFO | [Backtest] Pass 45/50
+2025-08-24 20:41:11,361 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:19,554 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_45.csv
+2025-08-24 20:41:19,554 | INFO | [Backtest] Pass 46/50
+2025-08-24 20:41:19,558 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:27,778 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_46.csv
+2025-08-24 20:41:27,779 | INFO | [Backtest] Pass 47/50
+2025-08-24 20:41:27,783 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:36,026 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_47.csv
+2025-08-24 20:41:36,027 | INFO | [Backtest] Pass 48/50
+2025-08-24 20:41:36,030 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:44,236 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_48.csv
+2025-08-24 20:41:44,236 | INFO | [Backtest] Pass 49/50
+2025-08-24 20:41:44,239 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:41:52,443 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_49.csv
+2025-08-24 20:41:52,444 | INFO | [Backtest] Pass 50/50
+2025-08-24 20:41:52,449 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:42:00,586 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve_pass_50.csv
+2025-08-24 20:42:00,586 | INFO | BACKTEST: reached max passes (50); stopping.
+2025-08-24 20:42:00,663 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_equity_curve.csv
+2025-08-24 20:42:00,666 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report.csv
+2025-08-24 20:42:00,669 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_report_summary.csv
+2025-08-24 20:42:01,813 | INFO | Backtest Summary:
+{
+  "mode": "BACKTEST",
+  "date": "2025-08-24",
+  "interval": "1Day",
+  "symbols": [
+    "AAL",
+    "AMD",
+    "BAC",
+    "CCL",
+    "F",
+    "NIO",
+    "PFE",
+    "PLUG",
+    "SOFI",
+    "T"
+  ],
+  "passes": 51,
+  "total_trades": 800,
+  "total_wins": 450,
+  "win_rate_total": 56.25,
+  "net_pnl_total": 785856.22
+}
+2025-08-24 20:42:01,818 | INFO | [SAVE] wrote C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\logs\backtest_runs.csv
+2025-08-24 20:42:02,889 | INFO | [DONE] Backtest finished: {'mode': 'BACKTEST', 'date': '2025-08-24', 'interval': '1Day', 'symbols': ['AAL', 'AMD', 'BAC', 'CCL', 'F', 'NIO', 'PFE', 'PLUG', 'SOFI', 'T'], 'passes': 51, 'total_trades': 800, 'total_wins': 450, 'win_rate_total': 56.25, 'net_pnl_total': 785856.22}

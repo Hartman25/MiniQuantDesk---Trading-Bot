@@ -1,0 +1,11 @@
+{
+  "total": 7,
+  "passed": 6,
+  "failed": 1,
+  "skipped": 0,
+  "offline": false,
+  "no_smoke": false,
+  "ts": "2025-08-25T03:10:40.179569+00:00",
+  "log_dir": "C:\\Users\\Zacha\\Desktop\\MiniQuantDesk\\ml_sidecar\\logs",
+  "data_dir": "C:\\Users\\Zacha\\Desktop\\MiniQuantDesk\\ml_sidecar\\data\\ml"
+}

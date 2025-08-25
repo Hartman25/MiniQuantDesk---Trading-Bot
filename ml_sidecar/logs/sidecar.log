@@ -1,0 +1,21 @@
+2025-08-24 18:07:02,225 [INFO] Sidecar logger starting. SUB connect to tcp://127.0.0.1:5557
+2025-08-24 18:07:02,230 [INFO] Listening (SUB) on tcp://127.0.0.1:5557
+2025-08-24 18:20:14,924 [INFO] Sidecar logger starting. SUB connect to tcp://127.0.0.1:5557
+2025-08-24 18:20:14,929 [INFO] Listening (SUB) on tcp://127.0.0.1:5557
+2025-08-24 18:23:52,213 [INFO] Sidecar logger stopped.
+2025-08-24 18:24:09,640 [INFO] Sidecar logger starting. SUB connect to tcp://127.0.0.1:5557
+2025-08-24 18:24:09,678 [INFO] Listening (SUB) on tcp://127.0.0.1:5557
+2025-08-24 18:24:14,024 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,143 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,221 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,322 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,423 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,525 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,626 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,727 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,828 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:24:14,933 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\24\preflight_ping_2025-08-24.parquet
+2025-08-24 18:57:30,547 [INFO] Sidecar logger starting. SUB connect to tcp://127.0.0.1:5557
+2025-08-24 18:57:30,553 [INFO] Listening (SUB) on tcp://127.0.0.1:5557
+2025-08-25 08:07:56,489 [INFO] Flushed 1 rows for preflight_ping -> C:\Users\Zacha\Desktop\MiniQuantDesk\ml_sidecar\data\ml\preflight_ping\2025\08\25\preflight_ping_2025-08-25.parquet
+2025-08-25 11:45:42,781 [INFO] Sidecar logger stopped.

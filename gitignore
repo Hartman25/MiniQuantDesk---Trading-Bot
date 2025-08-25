@@ -6,8 +6,12 @@ __pycache__/
 *.egg-info/
 .venv/
 .venv*/
+
+# Env files (keep .env.example tracked)
 .env
 env
+*.env
+!.env.example
 
 # Logs & data
 *.log

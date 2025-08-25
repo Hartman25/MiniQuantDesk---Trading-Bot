@@ -4,7 +4,7 @@ import os, sys, time, pathlib, subprocess, datetime as _dt, threading, signal, a
 # Unbuffered output
 os.environ.setdefault("PYTHONUNBUFFERED", "1")
 
-ROOT = pathlib.Path(__file__).resolve().parent
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 PY = sys.executable
 ENV = os.environ.copy()
 
@@ -78,10 +78,22 @@ def main():
     _start_sidecar_heartbeat(args.heartbeat)
 
     specs = []
-    if (ROOT / "logger_service.py").exists():
+    # Look for the sidecar logger in the new location first
+    sidecar_path = ROOT / "ml_sidecar" / "sidecar" / "logger_service.py"
+    if sidecar_path.exists():
+        # AFTER
+        specs.append(ProcSpec(
+            "logger_service",
+            [PY, str(sidecar_path)],
+            "logger.out",
+            cwd=str(ROOT)  # run from repo root so relative LOG_DIR/DATA_DIR resolve correctly
+        ))
+
+    elif (ROOT / "logger_service.py").exists():
+        # fallback to legacy location
         specs.append(ProcSpec("logger_service", [PY, "logger_service.py"], "logger.out"))
     else:
-        print("[INFO ] logger_service.py not found; skipping")
+        print(f"[INFO ] logger_service.py not found at {sidecar_path} or repo root; skipping")
 
     if args.with_bot and (ROOT / "TradingBot.py").exists():
         env_mode = args.mode.upper()

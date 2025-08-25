@@ -10,9 +10,14 @@ from datetime import datetime, timezone
 import argparse
 
 # ---------- Core paths ----------
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]  # repo root (one level above scripts/)
 LOG_DIR = Path(os.getenv("LOG_DIR", str(ROOT / "ml_sidecar" / "logs")))
 DATA_DIR = Path(os.getenv("DATA_DIR", str(ROOT / "ml_sidecar" / "data" / "ml")))
+
+# Make sure package imports like `import ml_sidecar` work when running from scripts/
+import sys
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 # ---------- dotenv (optional) ----------
 try:
@@ -398,10 +403,10 @@ def main():
         pass
 
     if failed == 0:
-        _print(f"=== PREFLIGHT: PASS=\{passed}/\{total}, SKIP=\{skipped} ===")
+        _print(f"=== PREFLIGHT: PASS={passed}/{total}, SKIP={skipped} ===")
         sys.exit(0)
     else:
-        _print(f"=== PREFLIGHT: FAILURES=\{failed}, PASS=\{passed}/\{total}, SKIP=\{skipped} ===")
+        _print(f"=== PREFLIGHT: FAILURES={failed}, PASS={passed}/{total}, SKIP={skipped} ===")
         sys.exit(1)
 
 if __name__ == "__main__":
